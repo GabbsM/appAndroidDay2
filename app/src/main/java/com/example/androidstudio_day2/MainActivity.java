@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Acciones que se ejecutan cuando se hace clic en el botón 1
-                Toast.makeText(MainActivity.this, "¡Botón 1 pulsado!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Button 1 pressed!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Acciones que se ejecutan cuando se hace clic en el botón 1
-                Toast.makeText(MainActivity.this, "¡Botón 2 pulsado!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Button 2 pressed!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -101,6 +101,6 @@ public class MainActivity extends AppCompatActivity {
 
             updateQuestion();
         }
-        texto_final.setText("Enhorabuena! Has completado el juego con " + score + " puntos");
+        texto_final.setText("Congratulations! You have completed the game with " + score + " points");
     }
 }
